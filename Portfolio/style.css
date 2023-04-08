@@ -1,0 +1,86 @@
+/* Set a luxurious background color */
+body {
+  background-color: #d5d58e;
+  font-family: Georgia, serif;
+}
+
+/* Add a fancy font for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Add a stylish border to all images */
+img {
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+/* Style links to stand out */
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #9b59b6;
+}
+
+/* Add a luxurious box shadow to all buttons */
+button, input[type="submit"] {
+  border: none;
+  background-color: #9b59b6;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px #ccc;
+  cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+  box-shadow: 0px 4px 8px #ccc;
+  transform: translateY(-2px);
+}
+
+/* Add some padding and margin to page elements */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Add a luxurious box shadow to the main content area */
+.main-content {
+  box-shadow: 0px 0px 20px #ccc;
+  padding: 30px;
+}
+
+/* Add a fancy border and background to blockquotes */
+blockquote {
+  border-left: 10px solid #9b59b6;
+  background-color: #f9f9f9;
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-style: italic;
+}
+
+/* Style the footer to look elegant */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  font-weight: bold;
+}
+
+li {
+  display: inline-block; /* display list items in a horizontal line */
+  margin-right: 10px; /* add some spacing between list items */
+}
