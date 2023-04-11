@@ -112,4 +112,5 @@ li {
 header {
   border: 10px ridge #efeded83;
   padding: 1em;
+  width: fit-content;
 }
