@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
   letter-spacing: 2px;
   text-transform: uppercase;
+  border-bottom: ridge 5px #efeded83;
 }
 
 /* Add a stylish border to all images */
@@ -106,4 +107,9 @@ li {
   padding: 1px 16px;
   height: 1000px;
   margin-top: 20px; /* add a margin to push the main content away from the sidebar */
+}
+
+header {
+  border: 10px ridge #efeded83;
+  padding: 1em;
 }
