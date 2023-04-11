@@ -1,7 +1,8 @@
 /* Set a luxurious background color */
 body {
-  background-color: #d5d58e;
+  background-color: #000000;
   font-family: Georgia, serif;
+  color: #ccc
 }
 
 /* Add a fancy font for headings */
@@ -17,7 +18,7 @@ img {
   box-shadow: 0px 0px 10px #ccc;
 }
 
-/* Style links to stand out */
+/* Style links to ease in out */
 a {
   color: #333;
   text-decoration: none;
@@ -26,7 +27,7 @@ a {
 }
 
 a:hover {
-  color: #9b59b6;
+  color: #3500e3;
 }
 
 /* Add box shadow to all buttons */
@@ -52,19 +53,10 @@ button:hover, input[type="submit"]:hover {
   padding: 20px;
 }
 
-/* Add a luxurious box shadow to the main content area */
+/* Add a box shadow to the main content area */
 .main-content {
   box-shadow: 0px 0px 20px #ccc;
   padding: 30px;
-}
-
-/* Add a fancy border and background to blockquotes */
-blockquote {
-  border-left: 10px solid #9b59b6;
-  background-color: #f9f9f9;
-  margin: 20px 0;
-  padding: 10px 20px;
-  font-style: italic;
 }
 
 /* Style the footer to look elegant */
@@ -91,9 +83,10 @@ li {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   overflow-x: hidden;
   padding-top: 20px;
+  border-right: inset 5px #00000083
 }
 
 .sidebar a {
